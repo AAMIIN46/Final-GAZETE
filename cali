@@ -1,0 +1,15 @@
+        <aside>
+          <a href="#">
+            <div class="posts-aside">
+              <img src="./images/adam.webp" alt="" />
+
+              <div class="aside-text">
+                <h1>ali oo sheegay</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus dolore nt rem est laborum placeat quam
+                </p>
+              </div>
+            </div>
+          </a>
+        </aside>

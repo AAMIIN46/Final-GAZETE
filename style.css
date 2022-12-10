@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bg-color: #f9f5eb;
+  --dark-mor: #1c3879;
+  --ligt-mor: #607eaa;
+  --gray: #d9d9d9;
+}
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* headerka */
+
+header nav {
+  min-height: 10vh;
+  flex-wrap: wrap;
+  background: var(--dark-mor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe {
+  display: flex;
+  color: var(--dark-mor);
+  margin: 0 9rem;
+  gap: 2rem;
+  padding: 0.5rem 3rem;
+  background: var(--bg-color);
+}
+#logo {
+  color: var(--bg-color);
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 0 18rem;
+  font-family: "Shrikhand", cursive;
+}
+.home ul {
+  display: flex;
+  color: var(--ligt-mor);
+  font-weight: 500;
+  gap: 3rem;
+  font-size: 1.4rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* sectionka */
+
+section {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 100vh;
+}
+.posts {
+  width: 70%;
+  padding: 0 2rem;
+}
+.post a {
+  display: flex;
+  gap: 1rem;
+}
+aside {
+  background: var(--gray);
+  width: 30%;
+}
+.post {
+  margin: 2rem 0rem;
+}
+.post img {
+  width: 50%;
+  height: auto;
+}
+/* asideka */
+
+.posts-aside {
+  display: flex;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+}
+.posts-aside img {
+  width: 50%;
+  height: 140px;
+}
+.aside-text {
+  font-size: 0.7rem;
+}
+
+/* footerka */
+.footer {
+  background: var(--dark-mor);
+}
+footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: var(--bg-color);
+}
+footer ul {
+  display: flex;
+  margin: 0 4rem;
+  gap: 2rem;
+}
+footer ul li svg {
+  fill: var(--bg-color);
+}
+
+/* 
+mobile designe */
+
+@media screen and (max-width: 900px) {
+  section,
+  .post a,
+  .posts-aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .posts,
+  aside {
+    width: 100%;
+    display: block;
+  }
+
+  .post h1,
+  p {
+    font-size: 1rem;
+  }
+
+  .posts img {
+    width: 100%;
+  }
+  .posts-aside img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+  }
+  footer ul{
+    padding: 0px;
+    margin: 0px;
+    
+  }
+}

@@ -1,0 +1,42 @@
+:root {
+  --bg-color: #f9f5eb;
+  --dark-mor: #1c3879;
+  --ligt-mor: #607eaa;
+  --gray: #d9d9d9;
+  --dark-hover: #142855;
+}
+
+.email {
+  background: var(--gray);
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+.email h1,
+.email p,
+input {
+  font-size: 1.5rem;
+  margin: 2rem 0rem;
+}
+
+.email input {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+}
+.email .submit-button {
+  background: var(--dark-mor);
+  color: var(--bg-color);
+}
+.email .submit-button:hover {
+  background: var(--dark-hover);
+  color: var(--bg-color);
+  cursor: pointer;
+}
+textarea {
+  margin-right: 7rem;
+  border: none;
+  border-radius: 1rem;
+}
