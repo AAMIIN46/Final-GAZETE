@@ -26,6 +26,25 @@ header nav {
   justify-content: center;
   align-items: center;
 }
+.home ul li a:hover {
+  background-color: var(--dark-mor);
+  color: var(--bg-color);
+  border-radius: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+.post a:hover,
+.posts-aside:hover {
+  background-color: var(--dark-mor);
+  color: var(--bg-color);
+  border-radius: none;
+  border-radius: 10px;
+}
+
+.post img,
+.posts-aside img {
+  border-radius: 10px;
+}
 
 .subscribe {
   display: flex;
@@ -41,6 +60,12 @@ header nav {
   font-size: 2rem;
   margin: 0 18rem;
   font-family: "Shrikhand", cursive;
+}
+#logo:hover {
+  color: #f9f5ebef;
+}
+.subscribe:hover {
+  background: #f9f5ebef;
 }
 .home ul {
   display: flex;
@@ -71,13 +96,17 @@ section {
 aside {
   background: var(--gray);
   width: 30%;
+  border-radius: 10px;
 }
 .post {
+  border-radius: 10px;
   margin: 2rem 0rem;
 }
+
 .post img {
   width: 50%;
   height: auto;
+  object-fit: cover;
 }
 /* asideka */
 
@@ -89,6 +118,7 @@ aside {
 .posts-aside img {
   width: 50%;
   height: 140px;
+  object-fit: cover;
 }
 .aside-text {
   font-size: 0.7rem;
@@ -155,9 +185,8 @@ mobile designe */
     margin: 0;
     gap: 1rem;
   }
-  footer ul{
+  footer ul {
     padding: 0px;
     margin: 0px;
-    
   }
 }
