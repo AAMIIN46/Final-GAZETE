@@ -156,14 +156,17 @@ mobile designe */
   .posts-aside {
     display: flex;
     flex-direction: column;
-    text-align: center;
   }
   .posts,
   aside {
     width: 100%;
     display: block;
   }
+  nav {
+    display: flex;
 
+    gap: 0.5rem;
+  }
   .post h1,
   p {
     font-size: 1rem;
@@ -176,7 +179,28 @@ mobile designe */
     width: 100%;
     height: auto;
   }
+  .subscribe {
+    height: 50px;
 
+    font-size: 1rem;
+    margin: 0rem 2rem;
+  }
+  .text {
+    padding: 0rem 0.5rem;
+    gap: 1em;
+  }
+  nav #logo {
+    font-size: 2rem;
+    margin: 0rem 2rem;
+  }
+  .posts,
+  section {
+    width: 95%;
+    margin: auto;
+  }
+  .subscribe img {
+    height: 30px;
+  }
   footer {
     display: flex;
     flex-direction: column;
