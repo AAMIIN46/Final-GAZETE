@@ -53,6 +53,7 @@ header nav {
   gap: 2rem;
   padding: 0.5rem 3rem;
   background: var(--bg-color);
+  border-radius: 9px;
 }
 #logo {
   color: var(--bg-color);
