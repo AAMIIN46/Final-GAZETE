@@ -11,3 +11,7 @@ h3 {
 .post img {
   width: 100%;
 }
+.oyuncu {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

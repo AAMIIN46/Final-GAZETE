@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 :root {
   --bg-color: #f9f5eb;
   --dark-mor: #1c3879;
@@ -29,7 +30,6 @@ header nav {
 .home ul li a:hover {
   background: var(--dark-mor);
   color: var(--bg-color);
-  padding: 0rem 0.5rem;
   border-radius: none;
   border-radius: 10px;
 }
@@ -77,6 +77,9 @@ header nav {
   justify-content: center;
   padding: 1rem;
 }
+.home ul li a {
+  padding: 0.7rem 1.5rem;
+}
 
 /* sectionka */
 
@@ -95,10 +98,11 @@ section {
   gap: 1rem;
 }
 aside {
-  background: var(--gray);
   width: 30%;
   border-radius: 10px;
+  margin-top: 2rem;
 }
+
 .post {
   border-radius: 10px;
   margin: 2rem 0rem;
@@ -115,16 +119,25 @@ aside {
   display: flex;
   padding: 0.5rem 1rem;
   gap: 0.5rem;
+  background: var(--gray);
 }
+.oyuncu {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .posts-aside img {
   width: 50%;
   height: 140px;
   object-fit: cover;
 }
+
 .aside-text {
   font-size: 0.7rem;
 }
-
+.posts-aside {
+  min-height: fit-content;
+}
 /* footerka */
 .footer {
   background: var(--dark-mor);
