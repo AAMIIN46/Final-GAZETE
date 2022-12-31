@@ -14,6 +14,7 @@
   text-align: center;
   align-items: center;
   border-radius: 10px;
+  overflow: hidden;
 }
 .oyuncu {
   border-top-left-radius: 10px;
